@@ -5,10 +5,15 @@ import { Scissors, Clock, MapPin, Phone } from "lucide-react";
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-amber-50 to-stone-100 font-playfair">
+      {/* Backend Test Banner */}
+      <div className="bg-red-600 text-white p-4 text-center font-bold text-lg">
+        🔴 BACKEND TESTING IN PROGRESS - SANDBOX UPDATE TEST (Updated: 2025-10-25 20:40 UTC) - ROUND 2
+      </div>
+
       {/* Header */}
       <header className="bg-stone-900 text-amber-50 p-6 shadow-lg">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-3xl font-bold">Classic British Barbershop</h1>
+          <h1 className="text-3xl font-bold text-red-600">🔴 BACKEND TEST - ROYAL BARBERSHOP</h1>
           <nav className="hidden md:flex space-x-6">
             <a href="#home" className="hover:text-amber-400 transition-colors">Home</a>
             <a href="#about" className="hover:text-amber-400 transition-colors">About</a>
@@ -21,7 +26,7 @@ const Index = () => {
       {/* Hero Section */}
       <section id="home" className="bg-gradient-to-r from-stone-800 via-stone-700 to-stone-600 text-white py-20">
         <div className="container mx-auto text-center px-6">
-          <h2 className="text-6xl md:text-7xl font-bold mb-6 text-amber-100">Gentlemen's Grooming</h2>
+          <h2 className="text-6xl md:text-7xl font-bold mb-6 text-amber-100">Royal Grooming Experience</h2>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto italic">
             Experience the finest traditional British barbering in a warm, welcoming atmosphere where every detail matters.
           </p>
@@ -218,7 +223,7 @@ const Index = () => {
               &copy; 2024 Classic British Barbershop. All rights reserved.
             </p>
             <p className="text-sm text-stone-500">
-              Crafting gentleman's grooming since 1890
+              Crafting gentleman's grooming since 1890 | Testing backend updates ✓
             </p>
           </div>
         </div>

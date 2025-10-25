@@ -1,0 +1,12 @@
+{
+  "testMode": true,
+  "version": "1.0",
+  "features": {
+    "fileCreation": "verified",
+    "fileEditing": "verified",
+    "fileMoving": "verified",
+    "nestedDirectories": "verified"
+  },
+  "timestamp": "2025-10-25T20:33:31Z",
+  "backend": "testing in progress"
+}
