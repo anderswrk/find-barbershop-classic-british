@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-01-25T21:45:00Z",
+  "test_round": "1",
+  "description": "This JSON file tests snapshot preservation of non-build files",
+  "files_created": [
+    "folder1/a.txt",
+    "folder1/b.txt",
+    "test-snapshot-data.json"
+  ],
+  "build_excluded": true
+}
